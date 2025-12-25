@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { fetchSheetValues } from "@/lib/sheets";
+import { fetchSheetValues } from "../../../lib/sheets";
 
 export async function GET(req: Request) {
   try {
